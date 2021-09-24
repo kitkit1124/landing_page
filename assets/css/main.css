@@ -1,0 +1,336 @@
+:root {
+  --black: #1a1a1c;
+  --white: #ffffff;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 371px;
+  margin-top: 2rem;
+}
+
+header section h1 {
+  font-family: "helveticaregular";
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 108px;
+}
+
+header section button {
+  background: linear-gradient(267.66deg, #6748ee 0%, #ff0058 98.83%) !important;
+  box-shadow: 3px 4px 11px rgba(74, 48, 70, 0.35);
+  border-radius: 10px !important;
+  border-color: 1px solid #6748ee !important;
+  font-family: "open_sansregular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 10px 30px !important;
+  letter-spacing: 0.1em;
+}
+
+header section button,
+header section {
+  margin-top: 4rem;
+}
+
+section .banner {
+  margin-top: 5rem;
+}
+
+.wrapper.world {
+  margin-top: 5rem;
+}
+
+.sliding-banners {
+  overflow: hidden;
+}
+
+.wrapper.world h1,
+.wrapper.world h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+}
+
+.wrapper.world h1 {
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+}
+
+.wrapper.world h3 {
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+}
+
+.wrapper.world .sliding-banners img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* We Want The World To Use Your App row */
+.wrapper.benDixon {
+  margin-top: 6rem;
+  position: relative;
+}
+
+.wrapper.benDixon .bg-black {
+  background-color: var(--black);
+  transform: skewY(-5deg);
+  width: 100%;
+  height: 73%;
+  position: absolute;
+  z-index: -1;
+  top: 3rem;
+}
+
+.wrapper.benDixon .row div:first-child {
+  background-image: url("../../assets/images/Desktop/BenDixon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper.benDixon .row div:nth-child(2) {
+  padding: 10rem 8rem;
+}
+
+.wrapper.benDixon .row div:nth-child(2) h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+  color: var(--white);
+}
+
+.wrapper.benDixon .row div:nth-child(2) p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 38px;
+  margin-top: 2rem;
+  color: var(--white);
+  padding-right: 6rem;
+}
+
+.wrapper.benDixon .row div:nth-child(2) p span {
+  color: #ff0058;
+}
+
+.wrapper.ipad h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 90px;
+  letter-spacing: -2.5px;
+  color: var(--black);
+  margin-top: 4rem;
+}
+
+.wrapper.ipad .row h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+  color: var(--black);
+}
+
+.wrapper.ipad .row p,
+.wrapper.ipad .row ul li {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 38px;
+  color: var(--black);
+  list-style-type: none;
+}
+
+.wrapper.ipad .ipad-overlap {
+  overflow-x: hidden;
+}
+
+.wrapper.shot {
+  position: relative;
+}
+
+.wrapper.shot .bg-black {
+  background-color: var(--black);
+  transform: skewY(-5deg);
+  width: 100%;
+  height: 112rem;
+  position: absolute;
+  z-index: -1;
+  top: -17rem;
+}
+
+.wrapper.shot h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 90px;
+  letter-spacing: -2.5px;
+  color: #f2f2f2;
+}
+
+.wrapper.shot .row div:nth-child(1) h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+  color: var(--white);
+}
+
+.wrapper.shot .row div:nth-child(1) p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 38px;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.wrapper.shot .row div:nth-child(1) p span {
+  color: #ff0058;
+}
+
+.wrapper.shot .row div:nth-child(1) h4 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #c8c8c8;
+}
+
+.wrapper.shot .row div:nth-child(1) {
+  margin-top: 11rem;
+  padding: 5rem;
+}
+
+.wrapper.shot .row div:nth-child(2) {
+  background-image: url("../../assets/images/Desktop/Shaq_PB-Logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper.idea h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 108px;
+  letter-spacing: -3px;
+  background: #ff0058;
+  background: -webkit-linear-gradient(to top right, #ff0058 0%, #6e44e5 96%);
+  background: -moz-linear-gradient(to top right, #ff0058 0%, #6e44e5 96%);
+  background: linear-gradient(to top right, #ff0058 0%, #6e44e5 96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper.idea div:nth-child(1) {
+  margin-top: 3rem;
+}
+
+.wrapper.idea .row.mobile span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--black);
+}
+
+.wrapper form button {
+  background: linear-gradient(267.66deg, #6748ee 0%, #ff0058 98.83%) !important;
+  box-shadow: 3px 4px 11px rgba(74, 48, 70, 0.35);
+  border-radius: 10px !important;
+  border-color: 1px solid #6748ee !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 27px;
+  color: var(--white);
+  letter-spacing: 0.1em;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.ipad-form .ipadd h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+  color: var(--black);
+}
+
+.ipad-form .ipadd span,
+.ipad-form .ipadd h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.ipadd {
+  padding: 15rem;
+  background-image: url("../../assets/images/Desktop/ipad-overlap.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ipadd form {
+  margin: 2rem 7rem;
+}
+
+.ipadd form .form-control {
+  padding: 1rem;
+  border: 1px solid #868686;
+  border-radius: 6px;
+  height: unset;
+}
+
+.ipadd form .form-group button {
+  background: linear-gradient(267.66deg, #6748ee 0%, #ff0058 98.83%) !important;
+  box-shadow: 3px 4px 11px rgba(74, 48, 70, 0.35);
+  border-radius: 10px !important;
+  border-color: 1px solid #6748ee !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Open Sans;
+  color: var(--white);
+  letter-spacing: 0.1em;
+}
+
+.ipadd form .form-group {
+  margin-bottom: 0.5rem;
+}
